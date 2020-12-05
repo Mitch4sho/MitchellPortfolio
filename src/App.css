@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+/* Navigation bar & Header */
+header{
+  padding: 0px 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navigation{
+ display: flex;
+ justify-content: space-between;
+ z-index: 12;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  font-size: 40px;
+  color: #23CE6B;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2.5px 2.5px  rgba(0,0,0,0.2);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigationSub{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+ol{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  margin: 0px 5px;
+  position: relative;
+}
+a{
+  padding:10px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  transition: 0.2s;
+  color:#EDF5FC;
+  font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+  color: #23ce23;
+}
+.resumeButton{
+  color: #23ce23;
+  background: transparent;
+  border: 1px solid #23ce23;
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.resumeButton:hover{
+  background:#23ce2325;
+  color: #52E28E;
 }
