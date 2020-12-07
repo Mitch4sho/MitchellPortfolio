@@ -61,3 +61,11 @@ a:hover{
   background:#23ce2325;
   color: #52E28E;
 }
+
+/* main content */
+main{
+  padding: 0px 150px;
+  max-width: 1600px;
+  min-height: 100vh;
+}
+
