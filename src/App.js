@@ -39,16 +39,20 @@ function App(){
         </div>
         <div id = "content">
           <main>
-            <div className = "hero"> 
-              <h3>Hello, my name is</h3>
-              <h1 className = "name">Mitchell Oliver</h1>
-              <h1>Make Things for the internet</h1>
-              <h1>
+            <section className = "hero"> 
+              <h1 className = "intro">Hello, my name is</h1>
+              <h2 className = "bigHeading">Mitchell Oliver</h2>
+              <h3 className = "bigHeading">I Make Things for the internet</h3>
+              <p>
               I'm a web developer based in Riverside, CA centered in building
               websites, applications, and everything else in between
-              </h1>
-            </div>
+              </p>
+              <a href ="mailto:MitchellOliver1991@gmail.com" className = "emailLink">Get in touch</a>
+            </section>
           </main>
+          <section>
+            
+          </section>
         </div>
       </Router>
   );

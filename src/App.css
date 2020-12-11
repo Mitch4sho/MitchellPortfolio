@@ -2,12 +2,12 @@
 header{
   padding: 0px 40px;
 }
-.navigation{
+.navigation {
  display: flex;
  justify-content: space-between;
  z-index: 12;
 }
-.logo{
+.logo {
   font-size: 40px;
   color: #23CE6B;
   margin: 10px;
@@ -31,7 +31,7 @@ li {
   margin: 0px 5px;
   position: relative;
 }
-a{
+a {
   padding:10px;
   display: inline-block;
   text-decoration: none;
@@ -41,10 +41,10 @@ a{
   color:#EDF5FC;
   font-family: 'Open Sans', sans-serif;
 }
-a:hover{
+a:hover {
   color: #23ce23;
 }
-.resumeButton{
+.resumeButton {
   color: #23ce23;
   background: transparent;
   border: 1px solid #23ce23;
@@ -57,15 +57,65 @@ a:hover{
   margin-left: 15px;
   font-size: 14px;
 }
-.resumeButton:hover{
+.resumeButton:hover {
   background:#23ce2325;
   color: #52E28E;
 }
-
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px 0px 10px 0px;
+  font-weight:600;
+  color: #EDF5FC;
+  line-height: 1.1;
+}
 /* main content */
-main{
+main {
   padding: 0px 150px;
   max-width: 1600px;
   min-height: 100vh;
 }
-
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height:100vh;
+}
+ section {
+   margin: 0px auto;
+   padding: 100px 0px;
+   max-width: 1000px;
+ }
+.intro {
+  margin: 0px 0px 30px 4px;
+  color:#23ce23;
+  font-family: 'Montserrat', sans-serif;
+}
+ .bigHeading {
+   margin: 0px;
+   font-size:clamp(40px, 8vw, 80px)
+ }
+ h3 {
+  margin-top: 10px;
+  color: #B9D8F3;
+  line-height: 0.9;
+}
+p{
+  margin:20px 0px 0px;
+  max-width:500px;
+}
+.emailLink{
+  color: #23ce23;
+  border: 1px solid #23ce23;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 1.25rem 1.75rem;
+  font-size: 17px; 
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.emailLink:hover {
+  background:#23ce2325;
+  color: #52E28E;
+}
