@@ -19,15 +19,57 @@
 }
 .inner{
     display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
 }
-p{
+.aboutMeSection p{
     margin: 0px 0px 15px;  
 }
 p > a{
     display: inline-block;
     text-decoration: none;
+    text-decoration-skip-ink:auto;
     position: relative;
     cursor: pointer;
-    color: #23CE6B;
-    margin-left: 0.2em;
+    color: #29ce6b;
+}
+.skillsList{
+    display: grid;
+    grid-template-columns: repeat( 2, minmax(140px, 200px));
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+}
+.skillsList li{
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+.skillsList li::before{
+    content:">";
+    position:absolute;
+    left:0px;
+    color: #29ce6b;
+    font-size: 13px;
+    line-height: 16px;
+}
+.styledPic{
+    position: relative;
+    max-width: 300px;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.imgWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    width: 100%;
 }

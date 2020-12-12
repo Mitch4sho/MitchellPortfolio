@@ -1,5 +1,6 @@
 import React from "react"
 import "./About.css";
+import profilePic from "./Assets/MitchellProfilePicture2020.jpg";
 function AboutMe(props) {
   return (
     <div>
@@ -15,16 +16,32 @@ function AboutMe(props) {
             </p>
             <p>
               After learning about the power of code, I went on a journey to find
-              like minded peers which brought me to a group in Riverside called 
-              <a href = "https://www.iesd.com/" target ="_blank"> IESD</a>.
+              like minded peers which brought me to a group in Riverside called <a href = "https://www.iesd.com/" target ="_blank">IESD</a>. 
               I joined a open source development team at Mozilla, specifically a 
-              team working on a localization application  
-              <a href = "" target = "_blank"> Pontoon</a>
-              working mainly on the frontend of the application.
+              team working on a localization application <a href = "https://pontoon.mozilla.org/" target = "_blank" >Pontoon</a> working mainly on the frontend of the application.
             </p>
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
-        </div>
+          <ul className = "skillsList">
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>Docker</li>
+          </ul>
+        </div> 
+        <div className = "styledPic">
+          <div className = "wrapper">
+            <div className = "imgWrapper">
+              <picture>
+                  <source/>
+                  <source/>
+                  <img src = {profilePic}/>
+              </picture>
+            </div>
+          </div>
+        </div>        
       </div>
     </div>
   )
