@@ -1,9 +1,31 @@
 import React from "react"
- 
+import "./About.css";
 function AboutMe(props) {
   return (
     <div>
-      <h1>About Me</h1>
+      <h2 className = "aboutMeHeading">About Me</h2>
+      <div className = "inner">
+        <div className = "aboutMeSection">
+          <div>
+            <p>Hi! My name is Mitchell, I'm a developer based in Riverside, CA.</p>
+            <p>
+            I love to create products that live on the web. Whether 
+            that would be websites or apps, my goals is to always build to perfection 
+            and provide a awesome experience.
+            </p>
+            <p>
+              After learning about the power of code, I went on a journey to find
+              like minded peers which brought me to a group in Riverside called 
+              <a href = "https://www.iesd.com/" target ="_blank"> IESD</a>.
+              I joined a open source development team at Mozilla, specifically a 
+              team working on a localization application  
+              <a href = "" target = "_blank"> Pontoon</a>
+              working mainly on the frontend of the application.
+            </p>
+            <p>Here are a few technologies I've been working with recently:</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

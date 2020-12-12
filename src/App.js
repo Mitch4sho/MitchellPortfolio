@@ -22,7 +22,7 @@ function App(){
 
         <header>
           <nav className = "navigation">
-            <div><Link className = "logo">Mitchell Oliver</Link></div>
+            <div className = "logo">Mitchell Oliver</div>
             <div className = "navigationSub">
               <ol>
                 <li><Link to ="/" className="item">About</Link></li>
@@ -50,8 +50,8 @@ function App(){
               <a href ="mailto:MitchellOliver1991@gmail.com" className = "emailLink">Get in touch</a>
             </section>
           </main>
-          <section>
-            
+          <section className = "aboutMe">
+            <AboutMe />
           </section>
         </div>
       </Router>

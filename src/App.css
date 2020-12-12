@@ -31,7 +31,7 @@ li {
   margin: 0px 5px;
   position: relative;
 }
-a {
+li > a {
   padding:10px;
   display: inline-block;
   text-decoration: none;
@@ -41,7 +41,7 @@ a {
   color:#EDF5FC;
   font-family: 'Open Sans', sans-serif;
 }
-a:hover {
+li > a:hover {
   color: #23ce23;
 }
 .resumeButton {
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #EDF5FC;
   line-height: 1.1;
 }
-/* main content */
+/* Hero content */
 main {
   padding: 0px 150px;
   max-width: 1600px;
@@ -119,3 +119,10 @@ p{
   background:#23ce2325;
   color: #52E28E;
 }
+/* about Me section in the main section of the css is located in the About.css */
+.aboutMe{
+  max-width: 900px;
+  padding: 0px 150px;
+  min-height: 100vh;
+}
+ 
