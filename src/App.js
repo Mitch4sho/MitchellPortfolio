@@ -15,7 +15,7 @@ function App(){
       <div className="App">
 
         {/* Paths for Links */}
-        <Route exact path = "/" components = {AboutMe} />
+        <Route exact path = "/aboutMe" components = {AboutMe} />
         <Route path = "/contact" components = {Contact}/>
         <Route path = "/projects" components = {Project}/>
         <Route path = " /work" components = {Work}/>
@@ -25,7 +25,7 @@ function App(){
             <div className = "logo">Mitchell Oliver</div>
             <div className = "navigationSub">
               <ol>
-                <li><Link to ="/" className="item">About</Link></li>
+                <li><Link to ="/aboutMe" className="item">About</Link></li>
                 <li><Link to ="/contact" className="item">Experience</Link></li>
                 <li><Link to ="/projects" className="item">Work</Link></li>
                 <li><Link to ="/work" className="item">Contact</Link></li>
@@ -52,6 +52,9 @@ function App(){
           </main>
           <section className = "aboutMe">
             <AboutMe />
+          </section>
+          <section className = "projects">
+            <Project />
           </section>
         </div>
       </Router>
