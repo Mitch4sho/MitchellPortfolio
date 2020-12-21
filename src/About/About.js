@@ -1,6 +1,7 @@
 import React from "react"
 import "./About.css";
-import profilePic from "./Assets/jpgImages/profileLarge.jpg";
+import ProfilePic from "../Assets/jpgImages/profileLarge.jpg";
+
 
 function AboutMe(props) {
   return (
@@ -35,7 +36,7 @@ function AboutMe(props) {
         <div className = "styledPic">
           <div className = "wrapper">
             <div className = "imgWrapper">
-                  <img src = { profilePic} alt = "Mitchell Profile Picture"/>
+                  <img src = {ProfilePic} alt = "Mitchell Profile Picture"/>
             </div>
           </div>
         </div>        

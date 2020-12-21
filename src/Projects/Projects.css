@@ -1,0 +1,123 @@
+.projects{
+    max-width: 900px;
+}
+
+.projectHeading{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: clamp(26px, 5vw);
+    white-space: nowrap; 
+}
+.projectHeading::after{
+    content: "";
+    display: block;
+    background-color: #B9D8F3;
+    position: relative;
+    top: 1px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+}
+.projectData:not(:last-of-type){
+    margin-bottom: 100px;
+}
+.projectData{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+}
+.projectContent:nth-last-of-type(2n+1){
+    grid-column: 7/ -1;
+    text-align: right;
+}
+.projectContent{
+    position: relative;
+    grid-area: 1/ 1/ -1/ 7;
+}
+/* .projectTitle @media (min-width:768px){
+    margin: 0px 0px 20px;
+} */
+.projectTitle{
+    color: #B9D8F3;
+    font-size: clamp(24px, 5vw, 28px)
+}
+.projectDescription{
+    box-shadow: 0px 10px 30px -15px;
+    position: relative;
+    transition: 3s;
+    z-index: 2;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #A39BA8;
+    color: #B9D8F3;
+    font-size: 13px;
+}
+.projectTechList:nth-last-of-type( 2n+1 ){
+    justify-content: flex-end;
+    -moz-box-pack: end;
+}
+.projectTechList{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    margin: 25px 0px 10px;
+    padding: 0px; 
+    list-style: outside none none;
+}
+.projectTechList li:nth-last-of-type( 2n+1 ){
+    margin: 0px 0px 5px 20px;
+}
+.projectTechList li{
+   color: #B9D8F3;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 13px;
+   white-space: nowrap;
+}
+.projectLinks:nth-of-type(2n+1){
+    -moz-box-pack: end;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-right: -10px;
+}
+.projectLinks{
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    color:orange;
+}
+.projectImage:nth-of-type(2n+1){
+    grid-column: 1 /8;
+}
+.projectImage{
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.5);
+    grid-area: 1 /6 / -1 / -1;
+    position: relative;
+    z-index: 1;
+}
+.projectImage a{
+    width: 100%;
+    background-color: orange;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+.projectImage img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 0;
+    padding-bottom: 62.2857%;
+
+}
+
+

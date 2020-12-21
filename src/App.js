@@ -4,10 +4,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import AboutMe from "./About";
-import Contact from "./Contact";
-import Project from "./Project";
-import Work from "./Work"; 
+import AboutMe from "./About/About";
+import Contact from "./Contact/Contact";
+import Project from "./Projects/Project"; 
 
 function App(){
   return (
@@ -15,10 +14,9 @@ function App(){
       <div className="App">
 
         {/* Paths for Links */}
-        <Route exact path = "/aboutMe" components = {AboutMe} />
+        <Route path = "/aboutMe" components = {AboutMe} />
         <Route path = "/contact" components = {Contact}/>
         <Route path = "/projects" components = {Project}/>
-        <Route path = " /work" components = {Work}/>
 
         <header>
           <nav className = "navigation">
