@@ -14,7 +14,7 @@ function Projects(props) {
   return (
 <>
     <h2 className = "projectHeading">Projects</h2>
-    <div className = "projectData">
+    <div className = "projectOne">
           <Thumbnail 
           title = {firstFeature.title}
           description = {firstFeature.description}
@@ -24,11 +24,25 @@ function Projects(props) {
           img = {firstFeature.image}
           />
     </div>
-    <div className = "projectData">
-          <Thumbnail />
+    <div className = "projectTwo">
+          <Thumbnail 
+          title = {firstFeature.title}
+          description = {firstFeature.description}
+          tech = {firstFeature.tech1}
+          tech = {firstFeature.tech2}
+          tech = {firstFeature.tech3}
+          img = {firstFeature.image}
+          />
     </div>
-    <div className = "projectData">
-          <Thumbnail />
+    <div className = "projectThree">
+          <Thumbnail 
+          title = {firstFeature.title}
+          description = {firstFeature.description}
+          tech = {firstFeature.tech1}
+          tech = {firstFeature.tech2}
+          tech = {firstFeature.tech3}
+          img = {firstFeature.image}
+          />
     </div>
 </>  
        
