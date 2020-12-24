@@ -60,6 +60,25 @@ p > a{
     position: relative;
     max-width: 300px;
 }
+.wrapper::before, .wrapper::after{
+    border-radius: 5px;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+} 
+.wrapper::before{
+    top: 0px;
+    left: 0px;
+    background-color: #272d2d;
+}
+.wrapper::after{
+    border: 2px solid #29ce6b;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+}
 .wrapper{
     width: 100%;
     height: 100%;
@@ -70,7 +89,8 @@ p > a{
     position: relative;
     overflow: hidden;
 }
-img{
+.profilePicture {
+    border-radius: 5px;
     position: absolute;
     top: 0px;
     left: 0px;

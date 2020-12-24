@@ -36,7 +36,7 @@ function AboutMe(props) {
         <div className = "styledPic">
           <div className = "wrapper">
             <div className = "imgWrapper">
-                  <img src = {ProfilePic} alt = "Mitchell Profile Picture"/>
+                  <img className = "profilePicture" src = {ProfilePic} alt = "Mitchell Profile Picture"/>
             </div>
           </div>
         </div>        

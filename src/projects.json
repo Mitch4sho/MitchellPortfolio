@@ -1,14 +1,35 @@
 [
     {
         "id": 1,
-        "title": "Test Site",
-        "demoUrl": "",
-        "codeUrl": "https://en.wikipedia.org/wiki/The_Big_O",
-        "tech1": "React",
-        "tech2": "Next",
-        "tech3": "Django",
-        "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit.Omnis non ex optio necessitatibus minima consequuntur nemo eveniet! Illum, vero laudantium. Voluptatum accusantium libero nostrum rem nisi alias veritatis qui minima.",
-        "image": "profileLarge.jpg"
-
+        "title": "Open Source Contributions",
+        "demoUrl": "https://github.com/Mitch4sho/OpenSourceContributions",
+        "codeUrl": "https://github.com/Mitch4sho/OpenSourceContributions",
+        "techOne": "React.js",
+        "techTwo": "Python",
+        "techThree": "JavaScript",
+        "description": "Contributions I  made for some open source projects ranging from JavaScript to Django. I have mostly worked with the localization app called Pontoon, the team at Mozilla. I worked on problems that fixed specific frontend bugs, such as improving the interactive tour component and making the filter tags to display correctly.",
+        "image": "PontoonPhoto.png"
+    },
+    {
+        "id": 2,
+        "title": "Movie Search Application",
+        "demoUrl": "https://mitch4sho.github.io/MovieDB/",
+        "codeUrl": "https://github.com/Mitch4sho/MovieDB",
+        "techOne": "React.js",
+        "techTwo": "MovieDB API",
+        "techThree": "JavaScript",
+        "description": "A React.js based application that will show you current movies available to watch. It takes advantage of the Movie DataBase API and uses the data to display on the frontend as cards and on individual pages also includes a search function.",
+        "image": "MovieDBPhoto.png"
+    },
+    {
+        "id": 3,
+        "title": "Budget Application",
+        "demoUrl": "https://mitch4sho.github.io/Budget-App/",
+        "codeUrl": "https://github.com/Mitch4sho/Budget-App",
+        "techOne": "JavaScript",
+        "techTwo": "Html",
+        "techThree": "CSS",
+        "description": "A fundamental vanilla Javascript application,  As a financial enthusiast, I wanted an easy way to keep track of income and expenses. This application serves that purpose as simple as possible.",
+        "image": "BudgetApp.png"
     }
 ]
