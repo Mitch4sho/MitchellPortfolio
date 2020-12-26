@@ -1,61 +1,61 @@
+import React, { useEffect } from "react"
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from "react-router-dom";
 import AboutMe from "./About/About";
 import Contact from "./Contact/Contact";
 import Project from "./Projects/Project"; 
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App(){
+  useEffect(()=>{
+    Aos.init({ });
+  });
+
   return (
-    <Router>
+    <div>
       <div className="App">
-
-        {/* Paths for Links */}
-        <Route path = "/aboutMe" components = {AboutMe} />
-        <Route path = "/contact" components = {Contact}/>
-        <Route path = "/projects" components = {Project}/>
-
         <header>
           <nav className = "navigation">
-            <div className = "logo">Mitchell Oliver</div>
+            <div className = "logo" data-aos = "fade-right" data-aos-delay="0">Mitchell Oliver</div>
             <div className = "navigationSub">
               <ol>
-                <li><Link to ="/aboutMe" className="item">About</Link></li>
-                <li><Link to ="/contact" className="item">Experience</Link></li>
-                <li><Link to ="/projects" className="item">Work</Link></li>
-                <li><Link to ="/work" className="item">Contact</Link></li>
+                <li data-aos = "fade-up" data-aos-delay="100"><a href ="#aboutMe" className="item">About</a></li>
+                <li data-aos = "fade-up" data-aos-delay="200"><a href ="#work" className="item">Work</a></li>
+                <li data-aos = "fade-up" data-aos-delay="300"><a href ="#contact" className="item">Contact</a></li>
               </ol>
               <div>
-                <Link to ="" className="resumeButton">Resume</Link>
+                <a href ="" className="resumeButton" data-aos = "fade-up" data-aos-delay="1400">Resume</a>
               </div>
             </div>
           </nav>
         </header>
         </div>
+
+
         <div id = "content">
-          <main>
-            <section className = "hero"> 
-              <h1 className = "intro">Hello, my name is</h1>
-              <h2 className = "bigHeading">Mitchell Oliver</h2>
-              <h3 className = "bigHeading">I Make Things for the internet</h3>
-              <p>
-              I'm a web developer based in Riverside, CA centered in building
-              websites, applications, and everything else in between
-              </p>
-              <a href ="mailto:MitchellOliver1991@gmail.com" className = "emailLink">Get in touch</a>
+            <main>
+              <section className = "hero"> 
+                <h1 className = "intro" data-aos = "fade-right" data-aos-delay="600">Hello, my name is</h1>
+                <h2 className = "bigHeading" data-aos = "fade-right" data-aos-delay="900">Mitchell Oliver</h2>
+                <h3 className = "bigHeading" data-aos = "fade-right" data-aos-delay="1000">I Make Things for the internet</h3>
+                <p data-aos = "fade-up" data-aos-delay="1200">
+                I'm a web developer based in Riverside, CA centered in building
+                websites, applications, and everything else in between
+                </p>
+                <a href ="mailto:MitchellOliver1991@gmail.com" className = "emailLink" data-aos = "fade-up" data-aos-delay="1400">Get in touch</a>
+              </section>
+            </main>
+            <section className = "aboutMe" id = "aboutMe">
+              <AboutMe />
             </section>
-          </main>
-          <section className = "aboutMe">
-            <AboutMe />
-          </section>
-          <section className = "projects">
-            <Project />
-          </section>
+            <section className = "projects" id = "work">
+              <Project />
+            </section>
+            <section className = "contact" id = "contact">
+              <Contact />
+            </section>
         </div>
-      </Router>
+      </div>
   );
 }
 

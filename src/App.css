@@ -1,11 +1,30 @@
 /* Navigation bar & Header */
 header{
   padding: 0px 40px;
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 11;
+  width: 95%;
+  filter: none !important;
+  pointer-events: auto !important;
+  user-select: auto !important;
+  box-shadow: 0 10px 30px -15px rgba(0,0,0, 0.5);
 }
 .navigation {
- display: flex;
- justify-content: space-between;
- z-index: 12;
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  counter-reset: item 0;
+  z-index: 12;
 }
 .logo {
   font-size: 40px;
@@ -13,11 +32,17 @@ header{
   margin: 10px;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 2.5px 2.5px  rgba(0,0,0,0.2);
+  /* new code adding in */
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-align: center;
+  align-items: center;
 }
 .navigationSub{
   display: flex;
+  -moz-box-align: center;
   align-items: center;
-  justify-content: space-between;
 }
 ol{
   display: flex;
@@ -26,8 +51,18 @@ ol{
   padding: 0px;
   margin: 0px;
   list-style: none;
+  /* new code */
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: outside none none;
 }
 li {
+  /* New code */
   margin: 0px 5px;
   position: relative;
 }
@@ -99,7 +134,7 @@ main {
   color: #B9D8F3;
   line-height: 0.9;
 }
-p{
+.hero p{
   margin:20px 0px 0px;
   max-width:500px;
 }
@@ -122,5 +157,14 @@ p{
 /* about Me section in the main section of the css is located in the About.css */
 .aboutMe{
   max-width: 900px;
+}
+
+.contact{
+  max-width: 600px;
+  margin: 0px auto 100px;
+  text-align: center;
+}
+.contact p{
+  margin-bottom:50px;
 }
  

@@ -54,7 +54,7 @@
     color: #EDF5FC;
     font-size: 15px;
 }
-.projectDescription p:last-child , p:last-of-type{
+.projectDescription:last-child , .projectDescription:last-of-type{
     margin: 0px;
 }
 .projectTechList{
