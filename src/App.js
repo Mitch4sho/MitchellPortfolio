@@ -6,15 +6,27 @@ import Project from "./Projects/Project";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+// to make Nav bar disappear and reappear 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0px";
+  } else {
+    document.getElementById("navbar").style.top = "-70px";
+  }
+  prevScrollpos = currentScrollPos;
+} 
+
 function App(){
   useEffect(()=>{
-    Aos.init({ });
+    Aos.init({ once: true });
   });
 
   return (
     <div>
       <div className="App">
-        <header>
+        <header id = "navbar">
           <nav className = "navigation">
             <div className = "logo" data-aos = "fade-right" data-aos-delay="0">Mitchell Oliver</div>
             <div className = "navigationSub">

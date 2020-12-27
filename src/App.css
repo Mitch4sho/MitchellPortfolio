@@ -1,19 +1,21 @@
 /* Navigation bar & Header */
 header{
+  position: fixed;
   padding: 0px 40px;
   display: flex;
   -moz-box-pack: justify;
   justify-content: space-between;
   -moz-box-align: center;
   align-items: center;
-  position: fixed;
   top: 0px;
   z-index: 11;
   width: 95%;
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
-  box-shadow: 0 10px 30px -15px rgba(0,0,0, 0.5);
+  box-shadow: 0px 10px 30px -10px rgba(0,0,0, 0.5);
+  background-color:rgba(39,45,45, 0.85);
+  transition: top 0.3s;
 }
 .navigation {
   display: flex;
