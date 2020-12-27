@@ -24,9 +24,9 @@ function AboutMe(props) {
             </p>
             <p>
               After learning about the power of code, I went on a journey to find
-              like minded peers which brought me to a group in Riverside called <a href = "https://www.iesd.com/" target ="_blank">IESD</a>. 
+              like minded peers which brought me to a group in Riverside called <a href = "https://www.iesd.com/" target ="_blank" rel="noreferrer">IESD</a>. 
               I joined a open source development team at Mozilla, specifically a 
-              team working on a localization application <a href = "https://pontoon.mozilla.org/" target = "_blank" >Pontoon</a> working mainly on the frontend of the application.
+              team working on a localization application <a href = "https://pontoon.mozilla.org/" target = "_blank" rel="noreferrer">Pontoon</a> working mainly on the frontend of the application.
             </p>
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
@@ -42,7 +42,7 @@ function AboutMe(props) {
         <div className = "styledPic" data-aos = "fade-up" data-aos-delay="200">
           <div className = "wrapper">
             <div className = "imgWrapper">
-                  <img className = "profilePicture" src = {ProfilePic} alt = "Mitchell Profile Picture"/>
+                  <img className = "profilePicture" src = {ProfilePic} alt = "Mitchell Profile"/>
             </div>
           </div>
         </div>        
