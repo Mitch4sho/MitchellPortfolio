@@ -28,6 +28,11 @@ header{
   counter-reset: item 0;
   z-index: 12;
 }
+@media screen and (min-width: 769px) {
+  .hamburgerMenuStyle{
+    display:none;
+  }
+}
 .logo {
   font-size: 40px;
   color: #23CE6B;
