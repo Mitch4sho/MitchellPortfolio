@@ -39,6 +39,15 @@ function App(){
                 <a href ="" className="resumeButton" data-aos = "fade-up" data-aos-delay="1400">Resume</a>
               </div>
             </div>
+            <div className = "hamburgerMenuStyle" data-aos = "fade-up" data-aos-delay="100">
+                <div>
+                  <button className = "hamburgerMenuButton">
+                    <div className="hamburgerBox">
+                      <div className="hamburgerBoxInner"></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
           </nav>
         </header>
         </div>

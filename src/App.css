@@ -160,7 +160,6 @@ main {
 .aboutMe{
   max-width: 900px;
 }
-
 .contact{
   max-width: 600px;
   margin: 0px auto 100px;
@@ -169,4 +168,82 @@ main {
 .contact p{
   margin-bottom:50px;
 }
+
+/* Tablet size */
+@media screen and (max-width: 768px) {
+  header{
+    width: 90%;
+  }
+  .aboutMe{
+    max-width: 700px;
+  }
+  .logo{
+    font-size: 25px;
+  }
+  .navigationSub{
+    display: none;
+  }
+  .hamburgerMenuButton{
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    margin-right: -15px;
+    padding: 15px;
+    border: 0px none;
+    background-color: transparent;
+    color: inherit;
+    text-transform: none;
+    transition-timing-function: linear;
+    transition-duration: 0.15s;
+    transition-property: opacity, filter;
+  }
+  .hamburgerBox{
+    display: inline-block;
+    position: relative;
+    height: 24px;
+    width: 20px;
+  }
+  .hamburgerBoxInner{
+    content: "";
+    display: block;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    width: 30px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #23ce23;
+    transition-timing-function: ease;
+    transition-duration: 0.15s;
+    transition-property: transform;
+  }
+  .hamburgerBoxInner::before{
+    width: 120%;
+    top: -10px;
+    opacity: 1;
+  }
+  .hamburgerBoxInner::after{
+    width: 80%;
+    bottom: -10px;
+    transform: rotate(0deg);
+  }
+  .hamburgerBoxInner::before, .hamburgerBoxInner::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #23ce23;
+    transition-timing-function: ease;
+    transition-duration: 0.15s;
+    transition-property: transform;
+  }
+ }
+
  

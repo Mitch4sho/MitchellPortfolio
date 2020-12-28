@@ -20,7 +20,7 @@ function Projects(props) {
 
 
   return (
-<>
+<div>
     <h2 className = "projectHeading" data-aos = "fade-up" data-aos-delay="100">Projects</h2>
     <div className = "projectOne" data-aos = "fade-up" data-aos-delay="200">
           <Thumbnail 
@@ -58,7 +58,7 @@ function Projects(props) {
           img = {thirdFeaturePhoto}
           />
     </div>
-</>  
+</div>  
        
   )
 }
