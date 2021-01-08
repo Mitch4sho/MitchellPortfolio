@@ -10,12 +10,18 @@ import "aos/dist/aos.css";
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
+
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0px";
   } else {
     document.getElementById("navbar").style.top = "-70px";
   }
   prevScrollpos = currentScrollPos;
+
+  var checkbox = document.getElementById("toggler")
+  if(checkbox.checked == true){
+    document.getElementById("navbar").style.top = "0px";
+  }
 } 
 
 function App(){
@@ -39,19 +45,25 @@ function App(){
                 <a href ="" className="resumeButton" data-aos = "fade-up" data-aos-delay="1400">Resume</a>
               </div>
             </div>
-            <div className = "hamburgerMenuStyle" data-aos = "fade-up" data-aos-delay="100">
+            <div className="mobileContainer">
+              <input type="checkbox" id = "toggler" className = "toggler"/>
+              <div className = "hamburgerMenuStyle" data-aos = "fade-up" data-aos-delay="100"><div></div></div>
+              <div className = "menu">
                 <div>
-                  <button className = "hamburgerMenuButton">
-                    <div className="hamburgerBox">
-                      <div className="hamburgerBoxInner"></div>
-                    </div>
-                  </button>
+                  <div>
+                    <ul>
+                      <li data-aos = "fade-up" data-aos-delay="100"><a href ="#aboutMe" className="item">About</a></li>
+                      <li data-aos = "fade-up" data-aos-delay="200"><a href ="#work" className="item">Work</a></li>
+                      <li data-aos = "fade-up" data-aos-delay="300"><a href ="#contact" className="item">Contact</a></li>
+                      <li data-aos = "fade-up" data-aos-delay="400"><a href ="">Resume</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+            </div>
           </nav>
         </header>
         </div>
-
 
         <div id = "content">
             <main>
