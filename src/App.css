@@ -176,7 +176,7 @@ main {
   display: none;
 }
 /* Tablet size */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   header{
     width: 90%;
   }
@@ -282,10 +282,10 @@ main {
     justify-content: center;
   }
   .menu > div {
-    background-color:rgba(163,155,168, 0.95);
+    background-color:rgba(237,245,242, 0.96);
     border-radius: 50%; 
-    width: 150vw;
-    height: 175vw;
+    width: 200vw;
+    height: 150vh;
     display: flex;
     flex: none;
     align-items: center;
@@ -295,15 +295,18 @@ main {
   }
   .menu > div > div {
     text-align: center;
-    max-width: 90vw;
-    max-width: 100vh;
+    max-width: 100vw;
+    max-width: 150vh;
     opacity: 0;
     transition: opacity 0.4s ease;
+  }
+  .menu > div > div > ul {
+    padding-left: 0px;
   }
 
   .menu > div > div > ul > li {
     list-style: none;
-    color: #EDF5FC;
+    color: #23ce23;
     font-size: 1.5rem;
     background: transparent;
     border: 2px solid #23ce23;
@@ -318,5 +321,26 @@ main {
     transition: color 0.4s ease;
   }
 }
+
+@media screen and (max-width: 400px) {
+  header{
+    width: 100%;
+    padding: 0px
+  }
+  main{
+    padding: 80px 30px;
+  }
+  .aboutMe{
+    padding: 80px 30px;
+  }
+  .projects{
+    padding: 80px 30px
+  }
+  .contact{
+    padding: 80px 30px;
+  }
+}
+
+
 
  

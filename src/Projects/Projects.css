@@ -146,5 +146,13 @@ svg.feather{
     }
   }
 
+  /* phone size */
+
+  @media screen and (max-width: 400px){
+    .projectContent{
+        padding: 25px 25px 20px;
+    }
+  }
+
 
 
