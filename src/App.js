@@ -19,7 +19,7 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 
   var checkbox = document.getElementById("toggler")
-  if(checkbox.checked == true){
+  if(checkbox.checked === true){
     document.getElementById("navbar").style.top = "0px";
   }
 } 
