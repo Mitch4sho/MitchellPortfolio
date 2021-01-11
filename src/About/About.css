@@ -103,7 +103,7 @@ p > a{
     vertical-align: middle;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .inner{
         display: block;
     }
