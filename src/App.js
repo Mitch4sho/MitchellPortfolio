@@ -5,6 +5,7 @@ import Contact from "./Contact/Contact";
 import Project from "./Projects/Project"; 
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Pdf from "./Assets/mitchell-resume.pdf";
 
 // to make Nav bar disappear and reappear 
 var prevScrollpos = window.pageYOffset;
@@ -42,7 +43,7 @@ function App(){
                 <li data-aos = "fade-up" data-aos-delay="300"><a href ="#contact" className="item">Contact</a></li>
               </ol>
               <div>
-                <a href ="" className="resumeButton" data-aos = "fade-up" data-aos-delay="1400">Resume</a>
+                <a href ="src/Assets/Mitchell's Resume.pdf" className="resumeButton" data-aos = "fade-up" data-aos-delay="1400">Resume</a>
               </div>
             </div>
             <div className="mobileContainer">
@@ -52,10 +53,10 @@ function App(){
                 <div>
                   <div>
                     <ul>
-                      <li data-aos = "fade-up" data-aos-delay="100"><a href ="#aboutMe" className="item">About</a></li>
-                      <li data-aos = "fade-up" data-aos-delay="200"><a href ="#work" className="item">Work</a></li>
-                      <li data-aos = "fade-up" data-aos-delay="300"><a href ="#contact" className="item">Contact</a></li>
-                      <li data-aos = "fade-up" data-aos-delay="400"><a href ="">Resume</a></li>
+                      <li data-aos = "fade-up" data-aos-delay="100"><a href ="#aboutMe" className = "item">About</a></li>
+                      <li data-aos = "fade-up" data-aos-delay="200"><a href ="#work" className = "item">Work</a></li>
+                      <li data-aos = "fade-up" data-aos-delay="300"><a href ="#contact" className = "item">Contact</a></li>
+                      <li data-aos = "fade-up" data-aos-delay="400"><a href = {Pdf}>Resume</a></li>
                     </ul>
                   </div>
                 </div>
