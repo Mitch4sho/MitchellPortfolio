@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MitchellPortfolio/static/css/main.732e0de0.chunk.css",
-    "main.js": "/MitchellPortfolio/static/js/main.5bc74b97.chunk.js",
-    "main.js.map": "/MitchellPortfolio/static/js/main.5bc74b97.chunk.js.map",
+    "main.js": "/MitchellPortfolio/static/js/main.a6e6527e.chunk.js",
+    "main.js.map": "/MitchellPortfolio/static/js/main.a6e6527e.chunk.js.map",
     "runtime-main.js": "/MitchellPortfolio/static/js/runtime-main.00763b0b.js",
     "runtime-main.js.map": "/MitchellPortfolio/static/js/runtime-main.00763b0b.js.map",
     "static/css/2.ec02d681.chunk.css": "/MitchellPortfolio/static/css/2.ec02d681.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/BudgetAppPhoto.76fdc51d.png": "/MitchellPortfolio/static/media/BudgetAppPhoto.76fdc51d.png",
     "static/media/MovieDBPhoto.ebda147a.png": "/MitchellPortfolio/static/media/MovieDBPhoto.ebda147a.png",
     "static/media/PontoonPhoto.b61a6632.png": "/MitchellPortfolio/static/media/PontoonPhoto.b61a6632.png",
+    "static/media/mitchell-resume.5bbe8a33.pdf": "/MitchellPortfolio/static/media/mitchell-resume.5bbe8a33.pdf",
     "static/media/profileLarge.ec033ab6.jpg": "/MitchellPortfolio/static/media/profileLarge.ec033ab6.jpg"
   },
   "entrypoints": [
@@ -24,6 +25,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.da10b9ee.chunk.js",
     "static/css/main.732e0de0.chunk.css",
-    "static/js/main.5bc74b97.chunk.js"
+    "static/js/main.a6e6527e.chunk.js"
   ]
 }
