@@ -43,7 +43,13 @@ function App(){
                 <li data-aos = "fade-up" data-aos-delay="300"><a href ="#contact" className="item">Contact</a></li>
               </ol>
               <div>
-                <a href ="src/Assets/Mitchell's Resume.pdf" className="resumeButton" data-aos = "fade-up" data-aos-delay="1400">Resume</a>
+                <a 
+                className="resumeButton"
+                href = {Pdf}
+                data-aos = "fade-up" 
+                data-aos-delay="1400"
+                rel = "noopener noreferrer"
+                >Resume</a>
               </div>
             </div>
             <div className="mobileContainer">
@@ -53,9 +59,9 @@ function App(){
                 <div>
                   <div>
                     <ul>
-                      <li data-aos = "fade-up" data-aos-delay="100"><a href ="#aboutMe" className = "item">About</a></li>
-                      <li data-aos = "fade-up" data-aos-delay="200"><a href ="#work" className = "item">Work</a></li>
-                      <li data-aos = "fade-up" data-aos-delay="300"><a href ="#contact" className = "item">Contact</a></li>
+                      <li data-aos = "fade-up" data-aos-delay="100"><a href = "#aboutMe" className = "item">About</a></li>
+                      <li data-aos = "fade-up" data-aos-delay="200"><a href = "#work" className = "item">Work</a></li>
+                      <li data-aos = "fade-up" data-aos-delay="300"><a href = "#contact" className = "item">Contact</a></li>
                       <li data-aos = "fade-up" data-aos-delay="400"><a href = {Pdf}>Resume</a></li>
                     </ul>
                   </div>
