@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import AboutMe from "./About/About";
+import AboutMe from "./components/AboutMe";
 import Contact from "./Contact/Contact";
 import Project from "./Projects/Project";
 import Aos from "aos";
