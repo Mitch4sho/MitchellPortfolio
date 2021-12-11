@@ -57,17 +57,22 @@ const StyledNavbar = styled.header`
   }
 
   @media only screen and (min-width: 1025px) {
-    position: fixed;
     height: 80px;
-    width: 100%;
     text-align: center;
     top: ${({ visible }) => (visible ? `0` : `-80px`)};
     transition: top 0.8s;
-    background-color: rgba(39, 45, 45, 0.85);
+    background-color: rgba(39, 45, 45, 0.95);
     box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, 0.5);
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     p {
+      display: block;
       font-size: 40px;
+      color: #23ce23;
+      margin-left: 30px;
     }
 
     ul {
@@ -77,10 +82,6 @@ const StyledNavbar = styled.header`
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-
-    div {
-      display: none;
     }
   }
 `;
