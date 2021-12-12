@@ -1,13 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 const HeroStyled = styled.main`
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  margin-bottom: 64px;
 
   h2 {
     font-size: 1em;
@@ -20,12 +14,13 @@ const HeroStyled = styled.main`
 
   h3 {
     font-size: 1.5em;
+    color: #b9d8f3;
     margin-bottom: 12px;
   }
 
   p {
     font-size: 1em;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
 
   a {
@@ -45,6 +40,16 @@ const HeroStyled = styled.main`
       color: #52e28e;
     }
   }
+
+  @media only screen and (min-width: 1025px) {
+    h1 {
+      font-size: 3.5em;
+    }
+
+    p {
+      width: 50%;
+    }
+  }
 `;
 
 export default function Hero() {
@@ -60,7 +65,7 @@ export default function Hero() {
         I make things for the internet
       </h3>
       <p data-aos="fade-up" data-aos-delay="1200">
-        I'm software engineer center in building websites, application , and
+        I'm a software engineer center in building websites, applications, and
         everything else in between
       </p>
       <a

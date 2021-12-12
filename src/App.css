@@ -165,7 +165,7 @@ h3 {
   color: #52e28e;
 } */
 /* about Me section in the main section of the css is located in the About.css */
-.aboutMe {
+/* .aboutMe {
   max-width: 900px;
 }
 .contact {
@@ -175,28 +175,28 @@ h3 {
 }
 .contact p {
   margin-bottom: 50px;
-}
+} */
 /* to make the tablet navigation invisible */
-.mobileContainer {
+/* .mobileContainer {
   display: none;
-}
+} */
 /* Tablet size */
 @media screen and (max-width: 768px) {
   /* header {
     width: 90%;
   } */
-  .mobileContainer {
+  /* .mobileContainer {
     display: block;
-  }
-  .aboutMe {
+  } */
+  /* .aboutMe {
     max-width: 700px;
-  }
+  } */
   /* .logo {
     font-size: 25px;
   } */
-  .navigationSub {
+  /* .navigationSub {
     display: none;
-  }
+  } */
   /* for the checkbox that is invisible */
   /* .toggler {
     position: absolute;
@@ -275,7 +275,7 @@ h3 {
     transition: opacity 0.4s ease;
   } */
 
-  .menu {
+  /* .menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -305,7 +305,7 @@ h3 {
     max-width: 150vh;
     opacity: 0;
     transition: opacity 0.4s ease;
-  }
+  } */
   /* .menu > div > div > ul {
     padding-left: 0px;
   } */
@@ -328,7 +328,7 @@ h3 {
   } */
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   header {
     width: 100%;
     padding: 0px;
@@ -345,4 +345,4 @@ h3 {
   .contact {
     padding: 80px 30px;
   }
-}
+} */

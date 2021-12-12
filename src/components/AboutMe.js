@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ProfilePic from "../Assets/jpgImages/profileLarge.jpg";
+import ProfilePic from "../Assets/jpgImages/IMG_3363 2.jpg";
 
 const AboutMeStyled = styled.div`
   h2 {
