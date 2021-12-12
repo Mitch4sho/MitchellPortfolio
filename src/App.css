@@ -28,11 +28,11 @@
   counter-reset: item 0;
   z-index: 12;
 } */
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) {
   .hamburgerMenuStyle {
     display: none;
   }
-}
+} */
 /* .logo {
   font-size: 40px;
   color: #23ce6b;
@@ -101,7 +101,7 @@ li > a:hover {
   background:#23ce2325;
   color: #52E28E;
 } */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -111,14 +111,14 @@ h6 {
   font-weight: 600;
   color: #edf5fc;
   line-height: 1.1;
-}
+} */
 /* Hero content */
-main {
+/* main {
   padding: 0px 150px;
   max-width: 1600px;
   min-height: 100vh;
-}
-.hero {
+} */
+/* .hero {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -163,7 +163,7 @@ h3 {
 .emailLink:hover {
   background: #23ce2325;
   color: #52e28e;
-}
+} */
 /* about Me section in the main section of the css is located in the About.css */
 .aboutMe {
   max-width: 900px;
