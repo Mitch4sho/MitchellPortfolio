@@ -13,6 +13,9 @@ const StyledNavbar = styled.header`
   box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, 0.5);
   z-index: 1;
 
+  display: flex;
+  align-items: center;
+
   p {
     display: none;
   }
@@ -59,14 +62,8 @@ const StyledNavbar = styled.header`
   @media only screen and (min-width: 1025px) {
     height: 80px;
     text-align: center;
-    top: ${({ visible }) => (visible ? `0` : `-80px`)};
-    transition: top 0.8s;
-    background-color: rgba(39, 45, 45, 0.95);
-    box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, 0.5);
 
-    display: flex;
     justify-content: space-between;
-    align-items: center;
 
     p {
       display: block;
