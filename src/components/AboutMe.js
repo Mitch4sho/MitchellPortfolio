@@ -3,6 +3,10 @@ import styled from "styled-components";
 import ProfilePic from "../Assets/jpgImages/IMG_3363 2.jpg";
 
 const AboutMeStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+
   h2 {
     width: 100%;
 
@@ -19,14 +23,11 @@ const AboutMeStyled = styled.div`
     height: 1px;
   }
 
-  section {
-    padding: 0;
+  p {
+    margin-bottom: 24px;
   }
 
   ul {
-    margin: 0;
-    padding: 0;
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 10px;
@@ -45,10 +46,12 @@ const AboutMeStyled = styled.div`
   }
 
   img {
-    display: none;
+    max-width: 300px;
+    border-radius: 5px;
+    align-self: center;
   }
 
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: 1325px) {
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 20px;
@@ -67,8 +70,6 @@ const AboutMeStyled = styled.div`
 
     img {
       display: block;
-      max-width: 300px;
-      border-radius: 5px;
       grid-column: 2/3;
     }
   }
@@ -121,6 +122,9 @@ export default function AboutMe() {
           </li>
           <li data-aos="fade-up" data-aos-delay="900">
             Python / Django
+          </li>
+          <li data-aos="fade-up" data-aos-delay="900">
+            Node.js
           </li>
         </ul>
       </section>

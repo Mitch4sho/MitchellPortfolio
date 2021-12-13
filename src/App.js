@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Contact from "./Contact/Contact";
-import Project from "./Projects/Project";
+import Projects from "./components/Projects";
 import Aos from "aos";
 import styled from "styled-components";
 import "aos/dist/aos.css";
@@ -17,9 +17,12 @@ const MainContentStyled = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 50px;
 
   @media only screen and (min-width: 1025px) {
     width: 50%;
+
+    gap: 200px;
   }
 `;
 
@@ -34,7 +37,7 @@ function App() {
       <MainContentStyled>
         <Hero />
         <AboutMe />
-        <Project />
+        <Projects />
         <Contact />
       </MainContentStyled>
     </div>

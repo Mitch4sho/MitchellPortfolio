@@ -11,7 +11,7 @@ const StyledNavbar = styled.header`
   transition: top 0.8s;
   background-color: rgba(39, 45, 45, 0.95);
   box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, 0.5);
-  z-index: 1;
+  z-index: 3;
 
   display: flex;
   align-items: center;
@@ -74,11 +74,12 @@ const StyledNavbar = styled.header`
 
     ul {
       margin-right: 30px;
-      width: 25%;
+      width: 35%;
 
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 10px;
     }
   }
 `;
