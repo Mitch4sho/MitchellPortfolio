@@ -60,7 +60,7 @@ const ProjectContentStyled = styled.div`
 `;
 
 export default function Project({ project }) {
-  const test = require(`../Assets/jpgImages/${project.image}`);
+  const photo = require(`../Assets/jpgImages/${project.image}`);
   return (
     <ProjectStyled>
       <ProjectContentStyled>
@@ -76,7 +76,7 @@ export default function Project({ project }) {
           <LinkIcon demo={project.demo} link={project.demoUrl} />
         </div>
       </ProjectContentStyled>
-      <img src={test.default} alt="Project_Image" />
+      <img src={photo.default} alt="Project_Image" />
     </ProjectStyled>
   );
 }
