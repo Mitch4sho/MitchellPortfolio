@@ -1,28 +1,18 @@
 {
   "files": {
-    "main.css": "/MitchellPortfolio/static/css/main.4dc4ecab.chunk.css",
-    "main.js": "/MitchellPortfolio/static/js/main.1f675f02.chunk.js",
-    "main.js.map": "/MitchellPortfolio/static/js/main.1f675f02.chunk.js.map",
-    "runtime-main.js": "/MitchellPortfolio/static/js/runtime-main.788329c5.js",
-    "runtime-main.js.map": "/MitchellPortfolio/static/js/runtime-main.788329c5.js.map",
-    "static/css/2.ec02d681.chunk.css": "/MitchellPortfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.3c00fb98.chunk.js": "/MitchellPortfolio/static/js/2.3c00fb98.chunk.js",
-    "static/js/2.3c00fb98.chunk.js.map": "/MitchellPortfolio/static/js/2.3c00fb98.chunk.js.map",
+    "main.css": "/MitchellPortfolio/static/css/main.27b825c1.css",
+    "main.js": "/MitchellPortfolio/static/js/main.56d3baa9.js",
+    "static/media/MovieDBPhoto.png": "/MitchellPortfolio/static/media/MovieDBPhoto.ebda147a87082fbfe0f3.png",
+    "static/media/IMG_3363 2.jpg": "/MitchellPortfolio/static/media/IMG_3363 2.2f8b727c5af6417793fd.jpg",
+    "static/media/GitHubUserSearchPhoto.png": "/MitchellPortfolio/static/media/GitHubUserSearchPhoto.4d3c77a25ffb7a01c289.png",
+    "static/media/PontoonPhoto.png": "/MitchellPortfolio/static/media/PontoonPhoto.b61a6632f9cfec05f40d.png",
+    "static/media/mitchell_resume.pdf": "/MitchellPortfolio/static/media/mitchell_resume.f10bb552b4024c69c57c.pdf",
     "index.html": "/MitchellPortfolio/index.html",
-    "static/css/2.ec02d681.chunk.css.map": "/MitchellPortfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.4dc4ecab.chunk.css.map": "/MitchellPortfolio/static/css/main.4dc4ecab.chunk.css.map",
-    "static/js/2.3c00fb98.chunk.js.LICENSE.txt": "/MitchellPortfolio/static/js/2.3c00fb98.chunk.js.LICENSE.txt",
-    "static/media/GitHubUserSearchPhoto.png": "/MitchellPortfolio/static/media/GitHubUserSearchPhoto.4d3c77a2.png",
-    "static/media/IMG_3363 2.jpg": "/MitchellPortfolio/static/media/IMG_3363 2.2f8b727c.jpg",
-    "static/media/MovieDBPhoto.png": "/MitchellPortfolio/static/media/MovieDBPhoto.ebda147a.png",
-    "static/media/PontoonPhoto.png": "/MitchellPortfolio/static/media/PontoonPhoto.b61a6632.png",
-    "static/media/mitchell_resume.f10bb552.pdf": "/MitchellPortfolio/static/media/mitchell_resume.f10bb552.pdf"
+    "main.27b825c1.css.map": "/MitchellPortfolio/static/css/main.27b825c1.css.map",
+    "main.56d3baa9.js.map": "/MitchellPortfolio/static/js/main.56d3baa9.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.788329c5.js",
-    "static/css/2.ec02d681.chunk.css",
-    "static/js/2.3c00fb98.chunk.js",
-    "static/css/main.4dc4ecab.chunk.css",
-    "static/js/main.1f675f02.chunk.js"
+    "static/css/main.27b825c1.css",
+    "static/js/main.56d3baa9.js"
   ]
 }
