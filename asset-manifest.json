@@ -1,30 +1,28 @@
 {
   "files": {
-    "main.css": "/MitchellPortfolio/static/css/main.732e0de0.chunk.css",
-    "main.js": "/MitchellPortfolio/static/js/main.a6e6527e.chunk.js",
-    "main.js.map": "/MitchellPortfolio/static/js/main.a6e6527e.chunk.js.map",
-    "runtime-main.js": "/MitchellPortfolio/static/js/runtime-main.00763b0b.js",
-    "runtime-main.js.map": "/MitchellPortfolio/static/js/runtime-main.00763b0b.js.map",
+    "main.css": "/MitchellPortfolio/static/css/main.4dc4ecab.chunk.css",
+    "main.js": "/MitchellPortfolio/static/js/main.1f675f02.chunk.js",
+    "main.js.map": "/MitchellPortfolio/static/js/main.1f675f02.chunk.js.map",
+    "runtime-main.js": "/MitchellPortfolio/static/js/runtime-main.788329c5.js",
+    "runtime-main.js.map": "/MitchellPortfolio/static/js/runtime-main.788329c5.js.map",
     "static/css/2.ec02d681.chunk.css": "/MitchellPortfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.da10b9ee.chunk.js": "/MitchellPortfolio/static/js/2.da10b9ee.chunk.js",
-    "static/js/2.da10b9ee.chunk.js.map": "/MitchellPortfolio/static/js/2.da10b9ee.chunk.js.map",
-    "static/js/3.62cfe1a8.chunk.js": "/MitchellPortfolio/static/js/3.62cfe1a8.chunk.js",
-    "static/js/3.62cfe1a8.chunk.js.map": "/MitchellPortfolio/static/js/3.62cfe1a8.chunk.js.map",
+    "static/js/2.3c00fb98.chunk.js": "/MitchellPortfolio/static/js/2.3c00fb98.chunk.js",
+    "static/js/2.3c00fb98.chunk.js.map": "/MitchellPortfolio/static/js/2.3c00fb98.chunk.js.map",
     "index.html": "/MitchellPortfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/MitchellPortfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.732e0de0.chunk.css.map": "/MitchellPortfolio/static/css/main.732e0de0.chunk.css.map",
-    "static/js/2.da10b9ee.chunk.js.LICENSE.txt": "/MitchellPortfolio/static/js/2.da10b9ee.chunk.js.LICENSE.txt",
-    "static/media/BudgetAppPhoto.76fdc51d.png": "/MitchellPortfolio/static/media/BudgetAppPhoto.76fdc51d.png",
-    "static/media/MovieDBPhoto.ebda147a.png": "/MitchellPortfolio/static/media/MovieDBPhoto.ebda147a.png",
-    "static/media/PontoonPhoto.b61a6632.png": "/MitchellPortfolio/static/media/PontoonPhoto.b61a6632.png",
-    "static/media/mitchell-resume.5bbe8a33.pdf": "/MitchellPortfolio/static/media/mitchell-resume.5bbe8a33.pdf",
-    "static/media/profileLarge.ec033ab6.jpg": "/MitchellPortfolio/static/media/profileLarge.ec033ab6.jpg"
+    "static/css/main.4dc4ecab.chunk.css.map": "/MitchellPortfolio/static/css/main.4dc4ecab.chunk.css.map",
+    "static/js/2.3c00fb98.chunk.js.LICENSE.txt": "/MitchellPortfolio/static/js/2.3c00fb98.chunk.js.LICENSE.txt",
+    "static/media/GitHubUserSearchPhoto.png": "/MitchellPortfolio/static/media/GitHubUserSearchPhoto.4d3c77a2.png",
+    "static/media/IMG_3363 2.jpg": "/MitchellPortfolio/static/media/IMG_3363 2.2f8b727c.jpg",
+    "static/media/MovieDBPhoto.png": "/MitchellPortfolio/static/media/MovieDBPhoto.ebda147a.png",
+    "static/media/PontoonPhoto.png": "/MitchellPortfolio/static/media/PontoonPhoto.b61a6632.png",
+    "static/media/mitchell_resume.f10bb552.pdf": "/MitchellPortfolio/static/media/mitchell_resume.f10bb552.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.00763b0b.js",
+    "static/js/runtime-main.788329c5.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.da10b9ee.chunk.js",
-    "static/css/main.732e0de0.chunk.css",
-    "static/js/main.a6e6527e.chunk.js"
+    "static/js/2.3c00fb98.chunk.js",
+    "static/css/main.4dc4ecab.chunk.css",
+    "static/js/main.1f675f02.chunk.js"
   ]
 }
