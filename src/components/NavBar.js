@@ -113,7 +113,7 @@ export default function NavBar() {
           <a href="#about">About Me</a>
         </li>
         <li>
-          <a href="#project">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
           <a href="#contact">Contact Me</a>

@@ -77,7 +77,7 @@ const AboutMeStyled = styled.div`
 
 export default function AboutMe() {
   return (
-    <AboutMeStyled>
+    <AboutMeStyled id="about">
       <h2 data-aos="fade-up">About Me</h2>
       <section data-aos="fade-up">
         <p>Hi! My name is Mitchell, and I'm a Software Engineer.</p>

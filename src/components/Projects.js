@@ -34,7 +34,7 @@ const ProjectListStyled = styled.ul`
 
 export default function Projects() {
   return (
-    <ProjectsStyled>
+    <ProjectsStyled id="projects">
       <h2 data-aos="fade-up" data-aos-delay="100">
         Projects
       </h2>
